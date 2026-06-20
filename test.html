@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test QuoteFlow Widget</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Inter, sans-serif; background: #F9FAFB; color: #111; }
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; text-align: center; padding: 40px 20px;
+    }
+    h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 16px; }
+    p { color: #6B7280; font-size: 1.1rem; max-width: 500px; }
+    .badge {
+      background: #EDE9FE; color: #7C3AED; padding: 6px 14px;
+      border-radius: 20px; font-size: 13px; font-weight: 600;
+      margin-bottom: 24px; display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <span class="badge">🧪 Page de test</span>
+    <h1>Site de démonstration</h1>
+    <p>Cliquez sur la bulle violette en bas à droite pour tester le widget QuoteFlow.</p>
+  </div>
+
+  <!-- Le widget — une seule ligne à donner au client -->
+  <script src="./widget.js" data-client="demo"></script>
+</body>
+</html>
