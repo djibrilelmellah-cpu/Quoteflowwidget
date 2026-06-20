@@ -2,7 +2,7 @@
   // ─── Config ───────────────────────────────────────────────────────────────
   const SUPABASE_URL = "https://VOTRE_PROJET.supabase.co";
   const SUPABASE_KEY = "VOTRE_ANON_KEY";
-  const N8N_WEBHOOK  = "https://universe19.app.n8n.cloud/webhook-test/quoteflow";
+  const N8N_WEBHOOK = "/api/send";
 
   // ─── Récupère le client_id depuis la balise script ───────────────────────
   const scriptTag   = document.currentScript || document.querySelector('script[src*="widget.js"]');
