@@ -1,7 +1,7 @@
 (function () {
   // ─── Config ───────────────────────────────────────────────────────────────
-  const SUPABASE_URL = "https://VOTRE_PROJET.supabase.co";
-  const SUPABASE_KEY = "VOTRE_ANON_KEY";
+  const SUPABASE_URL = "https://kpglxkveyskckoswrpzf.supabase.co";
+const SUPABASE_KEY = "sb_publishable_v0AuGxTraA33H5Wl84lcNg_hxofMYGQ";
   const N8N_WEBHOOK = "/api/send";
 
   // ─── Récupère le client_id depuis la balise script ───────────────────────
